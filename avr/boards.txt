@@ -1,0 +1,22 @@
+##############################################################
+
+sodaq_tatu.name=SODAQ Tatu 1284p 8MHz using Optiboot at 57600 baud
+
+sodaq_tatu.upload.tool=arduino:avrdude
+sodaq_tatu.upload.protocol=arduino
+sodaq_tatu.upload.maximum_size=130048
+sodaq_tatu.upload.speed=57600
+
+sodaq_tatu.bootloader.tool=arduino:avrdude
+sodaq_tatu.bootloader.low_fuses=0xFF
+sodaq_tatu.bootloader.high_fuses=0xD6
+sodaq_tatu.bootloader.extended_fuses=0xFD
+sodaq_tatu.bootloader.file=optiboot/optiboot_atmega1284p.hex
+sodaq_tatu.bootloader.unlock_bits=0x3F
+sodaq_tatu.bootloader.lock_bits=0x2F
+
+sodaq_tatu.build.mcu=atmega1284p
+sodaq_tatu.build.f_cpu=8000000L
+sodaq_tatu.build.core=arduino:arduino
+sodaq_tatu.build.variant=tatu
+sodaq_tatu.build.board=AVR_SODAQ_TATU
