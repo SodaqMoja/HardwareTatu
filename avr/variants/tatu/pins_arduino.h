@@ -53,6 +53,10 @@ static const uint8_t SCK  = 15;
 static const uint8_t SDA = 17;
 static const uint8_t SCL = 16;
 
+static const uint8_t BEEDTR = 23;
+static const uint8_t BEERTS = 9;
+static const uint8_t BEECTS = 8;
+
 static const uint8_t LED2 = 8;                  // Green
 static const uint8_t LED1 = 9;                  // Red
 
